@@ -1,0 +1,28 @@
+.navbar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    h1{
+        font-size: 23px;
+    }
+    .navlinks{
+        display: flex;
+        gap: 1rem;
+        a{
+            color: blue;
+        }
+    }
+    .btns{
+        display: flex;
+        gap: 1rem;
+        button{
+            padding: 8px 12px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+}
